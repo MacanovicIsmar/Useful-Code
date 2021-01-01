@@ -32,3 +32,5 @@ namespace KC_KinoCentar.Web.Helpers
         }
     }
 }
+                    //Plakat = CommonHelper.GetImageBase64(film.Plakat)
+                    //Plakat = CommonHelper.GetImageByteArray(file)
