@@ -1,0 +1,16 @@
+ try
+            {
+                if (OFD.ShowDialog() == DialogResult.OK)
+                {
+                    string putanja = OFD.FileName;
+                    Image Slika = Image.FromFile(putanja);
+                    PB_profilna.Image = Slika;
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+
+            }
